@@ -1,5 +1,15 @@
-[COLOR green]World.Media[/COLOR]
+[COLOR green].Jurassic.World.Media[/COLOR]
 
+[COLOR blue]Jurassic.World.Media provides Genesis add-on[/COLOR]
+[COLOR yello] All credit for the Genesis add-on goes to lambda.[/COLOR]
+
+[COLOR green]Genesis Add-on[/COLOR]
+[COLOR blue]Copyright (C) 2015 lambda[/COLOR]
+
+[COLOR orange]This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version[/COLOR]
 
 
 
