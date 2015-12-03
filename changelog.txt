@@ -1,26 +1,9 @@
-[COLOR green].Jurassic.World.Media[/COLOR]
+------------------------
+Jurassic.World.Media v5.1.4
+------------------------
+- [COLOR blue]NOTE: FreeWorld.Media provides Genesis add-on[/COLOR]
+- [COLOR blue]NOTE: All credit for the Genesis add-on goes to lambda[/COLOR]
 
-[COLOR blue]Jurassic.World.Media provides Genesis add-on[/COLOR]
-[COLOR yello] All credit for the Genesis add-on goes to lambda.[/COLOR]
-
-[COLOR green]Genesis Add-on[/COLOR]
-[COLOR blue]Copyright (C) 2015 lambda[/COLOR]
-
-[COLOR orange]This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version[/COLOR]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- [COLOR orange]NOTE: Genesis is a free addon and it will always be a free addon.[/COLOR]
+- [COLOR orange]NOTE: Anyone that tells you otherwise is trying to steal your money.[/COLOR]
+- [COLOR orange]NOTE: Visit www.tvaddons.ag for support.[/COLOR]
