@@ -43,17 +43,17 @@ class navigator:
     def root(self):
         self.addDirectoryItem(30001, 'movieNavigator', 'movies.jpg', 'DefaultMovies.png')
         self.addDirectoryItem(30002, 'tvNavigator', 'tvshows.jpg', 'DefaultTVShows.png')
-        self.addDirectoryItem(30003, 'channels', 'channels.jpg', 'DefaultMovies.png')
+        
         
 
-        if not control.setting('movie_widget') == '0':
-            self.addDirectoryItem(30005, 'movieWidget', 'moviesAdded.jpg', 'DefaultRecentlyAddedMovies.png')
+        
+           
 
-        if (traktMode == True and not control.setting('tv_alt_widget') == '0') or (traktMode == False and not control.setting('tv_widget') == '0'):
-            self.addDirectoryItem(30006, 'tvWidget', 'calendarsAdded.jpg', 'DefaultRecentlyAddedEpisodes.png')
+        
+        
 
-        if not control.setting('calendar_widget') == '0':
-            self.addDirectoryItem(30007, 'calendars', 'calendar.jpg', 'DefaultRecentlyAddedEpisodes.png')
+        
+           
 
         self.addDirectoryItem(30008, 'toolNavigator', 'tools.jpg', 'DefaultAddonProgram.png')
 
