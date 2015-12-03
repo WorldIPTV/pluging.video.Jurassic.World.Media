@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Genesis Add-on
+    Jurassic.World.Media Add-on
     Copyright (C) 2015 lambda
 
     This program is free software: you can redistribute it and/or modify
@@ -19,4 +19,4 @@
 '''
 
 import xbmc
-xbmc.executebuiltin('RunPlugin(plugin://plugin.video.genesis/?action=service)')
+xbmc.executebuiltin('RunPlugin(plugin://plugin.video.Jurassic.World.Media/?action=service)')
