@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Genesise Add-on
+    Genesis Add-on
     Copyright (C) 2015 lambda
 
     This program is free software: you can redistribute it and/or modify
@@ -41,10 +41,10 @@ sysaddon = sys.argv[0]
 class navigator:
 
     def root(self):
-        self.addDirectoryItem(30001, 'movieworldmedia', 'movies.jpg', 'DefaultMovies.png')
-        self.addDirectoryItem(30002, 'tvworldmedia', 'tvshows.jpg', 'DefaultTVShows.png')
+        self.addDirectoryItem(30001, 'movieNavigator', 'movies.jpg', 'DefaultMovies.png')
+        self.addDirectoryItem(30002, 'tvNavigator', 'tvshows.jpg', 'DefaultTVShows.png')
         self.addDirectoryItem(30003, 'channels', 'channels.jpg', 'DefaultMovies.png')
-        self.addDirectoryItem(30004, 'myworldmedia', 'myworldmedia.jpg', 'DefaultVideoPlaylists.png')
+        self.addDirectoryItem(30004, 'myNavigator', 'mygenesis.jpg', 'DefaultVideoPlaylists.png')
 
         if not control.setting('movie_widget') == '0':
             self.addDirectoryItem(30005, 'movieWidget', 'moviesAdded.jpg', 'DefaultRecentlyAddedMovies.png')
@@ -55,9 +55,9 @@ class navigator:
         if not control.setting('calendar_widget') == '0':
             self.addDirectoryItem(30007, 'calendars', 'calendar.jpg', 'DefaultRecentlyAddedEpisodes.png')
 
-        self.addDirectoryItem(30008, 'toolworldmedia', 'tools.jpg', 'DefaultAddonProgram.png')
+        self.addDirectoryItem(30008, 'toolNavigator', 'tools.jpg', 'DefaultAddonProgram.png')
 
-        self.addDirectoryItem(30009, 'searchworldmedia', 'search.jpg', 'DefaultFolder.png')
+        self.addDirectoryItem(30009, 'searchNavigator', 'search.jpg', 'DefaultFolder.png')
 
         self.endDirectory()
 
@@ -135,7 +135,7 @@ class navigator:
         movie_downloads = control.setting('movie_downloads')
         tv_downloads = control.setting('tv_downloads')
         if len(control.listDir(movie_downloads)[0]) > 0 or len(control.listDir(tv_downloads)[0]) > 0:
-            self.addDirectoryItem(30098, 'downloadworldmedia', 'downloads.jpg', 'DefaultFolder.png')
+            self.addDirectoryItem(30098, 'downloadNavigator', 'downloads.jpg', 'DefaultFolder.png')
 
         self.endDirectory()
 
@@ -164,7 +164,7 @@ class navigator:
         self.addDirectoryItem(30119, 'clearSources', 'cache.jpg', 'DefaultAddonProgram.png')
         self.addDirectoryItem(30120, 'clearCache', 'cache.jpg', 'DefaultAddonProgram.png')
         self.addDirectoryItem(30122, 'openSettings&query=8.0', 'settings.jpg', 'DefaultAddonProgram.png')
-        self.addDirectoryItem(30121, 'libtoolworldmedia', 'tools.jpg', 'DefaultAddonProgram.png')
+        self.addDirectoryItem(30121, 'libtoolNavigator', 'tools.jpg', 'DefaultAddonProgram.png')
 
         self.endDirectory()
 
