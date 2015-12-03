@@ -43,23 +43,11 @@ class navigator:
     def root(self):
         self.addDirectoryItem(30001, 'movieNavigator', 'movies.jpg', 'DefaultMovies.png')
         self.addDirectoryItem(30002, 'tvNavigator', 'tvshows.jpg', 'DefaultTVShows.png')
-        
-        
-
-        
-           
-
-        
-        
-
-        
-           
-
-        self.addDirectoryItem(30008, 'toolNavigator', 'tools.jpg', 'DefaultAddonProgram.png')
+		 self.addDirectoryItem(30008, 'toolNavigator', 'tools.jpg', 'DefaultAddonProgram.png')
 
         self.addDirectoryItem(30009, 'searchNavigator', 'search.jpg', 'DefaultFolder.png')
 
-        self.endDirectory()
+        
 
         from resources.lib.libraries import cache
         from resources.lib.libraries import changelog
@@ -214,3 +202,18 @@ class navigator:
         control.directory(int(sys.argv[1]), cacheToDisc=cacheToDisc)
 
 
+
+        
+        
+
+        
+           
+
+        
+        
+
+        
+          
+
+       
+	  
