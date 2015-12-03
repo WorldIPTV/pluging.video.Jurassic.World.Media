@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.Jurassic.World.Media" name="Jurassic.World.Media" version="5.1.4" provider-name="FreeWorld.Media">
+<addon id="plugin.video.Jurassic.World.Media" name="[COLOR blue]Jurassic.World.Media[/COLOR]" version="5.1.4" provider-name="FreeWorld.Media">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -12,7 +12,7 @@
 	<extension point="xbmc.service" library="service.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">FreeWorld.Media</summary>
-		<description lang="en">FreeWorld.Media provides Genesis add-on . All credit for the Genesis add-on goes to lambda</description>
+		<description lang="en">[COLOR blue]FreeWorld.Media[COLOR][COLOR yello]provides Genesis add-on[/COLOR].[COLOR blue]All credit for the Genesis add-on goes to lambda[/COLOR]</description>
 		<disclaimer lang="en">The author does not have any affiliation with the content provider.</disclaimer>
 		<forum>http://forums.tvaddons.ag/forums/148-lambda-s-xbmc-addons</forum>
 		<source>https://offshoregit.com/lambda81/</source>
