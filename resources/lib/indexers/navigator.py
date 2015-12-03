@@ -44,7 +44,7 @@ class navigator:
         self.addDirectoryItem(30001, 'movieNavigator', 'movies.jpg', 'DefaultMovies.png')
         self.addDirectoryItem(30002, 'tvNavigator', 'tvshows.jpg', 'DefaultTVShows.png')
         self.addDirectoryItem(30003, 'channels', 'channels.jpg', 'DefaultMovies.png')
-        self.addDirectoryItem(30004, 'myNavigator', 'mygenesis.jpg', 'DefaultVideoPlaylists.png')
+        self.addDirectoryItem(30004, 'myNavigator', 'myworldmedia.jpg', 'DefaultVideoPlaylists.png')
 
         if not control.setting('movie_widget') == '0':
             self.addDirectoryItem(30005, 'movieWidget', 'moviesAdded.jpg', 'DefaultRecentlyAddedMovies.png')
